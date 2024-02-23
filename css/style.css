@@ -1,1 +1,30 @@
 @import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    max-width: 400px;
+    height: auto;
+    padding: 20px;
+}
+ul, a {
+    list-style-type: none;
+    text-decoration: none;
+}
+ul li {
+    display: flex;
+    justify-content: space-between;
+    max-width: auto;
+    margin: 0.5em 0;
+    padding: 16px;
+    background-color: lightgray;
+    color: black;
+}
+a {
+    padding: 5px;
+    background-color: white;
+    color: black;
+}
