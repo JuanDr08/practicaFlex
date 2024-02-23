@@ -1,1 +1,48 @@
 @import url(variables.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+    padding: 5px;
+}
+img {
+    flex-basis: 225px;
+}
+.lista {
+    display: flex;
+    align-items: center;
+}
+ul, a {
+    list-style-type: none;
+    text-decoration: none;
+}
+ul li {
+    display: inline-block;
+    margin: 0 0.5em;
+}
+
+.lista a:link, .lista a:visited, .lista a:hover, .lista a:active {
+    color: gray;
+}
+
+.lenguajes {
+    display: flex;
+    align-items: center;
+}
+.lenguajes > a {
+    color: white;
+    background-color: gray;
+    padding: 8px;
+    margin: 0 0.5em;
+}
+
+
+
+
