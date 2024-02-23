@@ -1,0 +1,1 @@
+![](https://github.com/JuanDr08/practicaFlex/blob/boxModel/storage/img/1.jpg)
