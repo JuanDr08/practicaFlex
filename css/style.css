@@ -1,1 +1,29 @@
 @import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: max-content;
+    max-height: max-content;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: lightgray;
+    position: absolute;
+    margin: auto;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    
+}
+.parrafo {
+    max-width: 400px;
+    overflow: hidden;
+}
+h1, p {
+    padding: 20px;
+}
