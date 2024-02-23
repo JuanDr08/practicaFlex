@@ -1,1 +1,20 @@
 @import url(variables.css);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+    margin: 10px;
+}
+.container > img {
+    width: 500px;
+    height: 500px;
+    margin: 10px;
+    box-shadow: 50px black ;
+}
