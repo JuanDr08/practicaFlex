@@ -1,1 +1,131 @@
-@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+
+body > div {
+    position: absolute;
+    width: 600px;
+    height: 650px;
+    border: 10px solid red;
+    display: inline-block;
+    margin: auto;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+}
+body > div > div {
+    position: absolute;
+}
+.items {
+    width: 150px;
+    height: 630px;
+    border: 5px solid blue;  
+}
+.dashboard {
+    width: 430px;
+    height: 630px;
+    border: 5px solid black;
+    right: 0px;
+}
+.items h1 {
+    height: 50px;
+    border: 2px solid yellow;
+    text-align: center;
+}
+.items h3 {
+    height: 40px;
+    border: 2px solid purple;
+}
+.item {
+    height: 35px;
+    width: 100px;
+    border: 2px solid black;
+    margin-left: 40px;
+}
+.parrafo {
+    height: 40px;
+    border: 2px solid black;
+}
+.subitems{
+    position: relative;
+    height: 140px;
+    width: 100px;
+    border: 2px solid black;
+    margin-left: 40px;
+}
+.subitems > p {
+    height: 35px;
+    width: 70px;
+    border: 2px solid black;
+    margin-left: 27px;
+}
+
+.header {
+    position: absolute;
+    width: 420px;
+    height: 110px;
+    border: 2px solid brown;
+}
+.header .guions {
+    position: absolute;
+    width: 100px;
+    height: 70px;
+    border: 2px solid black;
+    text-align: center;
+    margin: auto;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+} 
+
+.header h3 {
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    border: 1px solid black;
+    bottom: 0px;
+}
+.body {
+    position: absolute;
+    height: 510px;
+    width: 420px;
+    border: 2px solid gray;
+    bottom: 0px;
+    padding: 10px;
+}
+.subbody {
+    width: 396px;
+    height: 480px;
+    border: 2px solid black;
+}
+.parameters > p {
+    display: inline-block;
+    width: 140px;
+    height: 70px;
+    border: 1px solid black;
+    margin: 25px;
+    padding: 5px;
+}
+
+.form {
+    position: absolute;
+    margin: auto;
+    right: 0px;
+    left: 0px;
+    width: 330px;
+    height: 235px;
+    border: 2px solid purple;
+    padding: 10px;
+}
+.description {
+    position: absolute;
+    margin: auto;
+    right: 0px;
+    left: 0px;
+    width: 300px;
+    height: 180px;
+    border: 1px solid black;
+}
