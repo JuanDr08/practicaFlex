@@ -1,1 +1,55 @@
 @import url(variables.css);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    min-width: 100vh;
+    min-height: 100vh;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    height: 15vh;
+    font-size: xx-large;
+    background-color: rgb(241 241 241);
+}
+main {
+    display: flex;
+    justify-content: space-between;
+    min-width: 100vh;
+    min-height: 75vh;
+}
+article {
+    padding-top: 15px;
+    min-width: 50%;
+    background: rgba(170, 170, 170, 1);
+}
+nav {
+    display: flex;
+    order: -1;
+    min-width: 25%;
+    background: rgb(187 187 187);
+    padding: 10px;
+}
+aside {
+    min-width: 25%;
+    background-color: rgb(204 204 204);
+    padding: 10px;
+}
+footer {
+    display: flex;
+    min-width: 100%;
+    min-height: 10vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(241 241 241);
+}
+h1 {
+    padding-bottom: 20px;
+    font-size: xx-large;
+}
