@@ -1,1 +1,57 @@
 @import url(variables.css);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    border: 2px solid black;
+    min-width: 150px;
+}
+body {
+    height: 100vh;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 18vh;
+    background: rgb(250 128 113);
+    color: white;
+}
+header h1 {
+    padding-bottom: 30px;
+}
+
+nav {
+    min-height: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: rgb(27 188 155);
+}
+.navigate {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.navigate > a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+}
+.lenguaje {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.lenguaje > a {
+    display: flex;
+    min-width: 100px;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+}
