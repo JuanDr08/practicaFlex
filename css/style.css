@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 ul, a {
@@ -10,12 +11,16 @@ ul, a {
     text-decoration: none;
 }
 ul {
-    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    min-width: auto;
 }
 ul li {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    width: 350px;
+    max-width: 350px;
     margin: 0.5em 0;
     padding: 16px;
     background-color: lightgray;
