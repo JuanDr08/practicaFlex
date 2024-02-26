@@ -1,1 +1,96 @@
 @import url(variables.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    border: 2px solid black;
+}
+body {
+    display: flex;
+    justify-content: center;
+}
+body > div {
+    display: flex;
+    max-width: 650px;
+    flex-wrap: wrap;
+}
+.items {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    overflow: hidden;
+}
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+.items h1 {
+    display: flex;
+    justify-content: center;
+    max-height: 50px;
+}
+.items h3 {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+}
+.item {
+    display: flex;
+    justify-content: center;
+    height: 35px;
+    max-width: 100%;
+}
+.parrafo {
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+.subitems{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-end;
+}
+.subitems > p {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 70px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+.guions {
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+}
+.dash {
+    display: flex;
+    align-items: flex-end;
+}
+.dash h3 {
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+.body {
+    width: 100%;
+    padding: 10px;
+}
+.progress {
+    overflow: hidden;
+    display: inline-block;
+    max-width: 100%;
+    padding: 15px;
+}
+.form {
+    padding: 10px;
+}
+.description {
+    height: 180px;
+}
