@@ -4,9 +4,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    
+    overflow: hidden;
 }
 body {
-    min-width: 100vh;
+    min-width: auto;
     min-height: 100vh;
 }
 header {
@@ -20,24 +22,25 @@ header {
 }
 main {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    min-width: 100vh;
+    width: auto;
     min-height: 75vh;
 }
 article {
     padding-top: 15px;
-    min-width: 50%;
+    width: 50%;
     background: rgba(170, 170, 170, 1);
 }
 nav {
     display: flex;
     order: -1;
-    min-width: 25%;
+    width: 25%;
     background: rgb(187 187 187);
     padding: 10px;
 }
 aside {
-    min-width: 25%;
+    width: 25%;
     background-color: rgb(204 204 204);
     padding: 10px;
 }
